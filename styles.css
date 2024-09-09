@@ -1,0 +1,152 @@
+body {
+    margin: 0px;
+    background-color: #fff8e7;
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+}
+
+body > header {
+    background-image: url("media_files/landscape/bakery1.jpg");
+    color: white;
+    background-size:cover;
+    min-height: 18vh;
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    margin: 0px;
+    padding: 12px;
+    font-family: "playfair display", sans-serif;
+}
+
+#body-header-ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#body-header-ul > div {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#body-header-ul li{
+    padding: 3px;
+    margin: 7px;
+    font-family: lora, arial, sans-serif;
+}
+
+#body-header-ul > div > li {
+    margin-bottom: 15px;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 9999px;
+    white-space: nowrap;
+
+}
+
+
+#sign-in {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 40px;
+    margin-left: 70px;
+    border: 1px solid #ffffff;
+    border-radius: 9999px;
+}
+
+#search-bar {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#search-bar input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+#search-bar button {
+    padding: 8px;
+    
+}
+
+#main-article img{
+    display: block;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-article h3{
+    font-family: lato, arial, sans-serif;
+    margin: 0;
+}
+
+#main-article p{
+    font-family: raleway, Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 40px;
+}
+#section1{
+    margin-top: 15px;
+}
+#section4{
+    list-style: none;
+    margin: 20px;
+}
+#view-menu-button{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 9999px;
+}
+
+#body-footer{
+    background-color: #F5E0C3;
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-top: 15px;
+}
+
+#footer-logo{
+    padding: 0;
+    margin: 12px;
+    margin-right: 100px;
+    
+}
+
+#footer-nav-ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px; 
+    flex-wrap: wrap;
+    
+}
+
+.footer-navbutton{
+    text-decoration: none;
+    color: #333333;
+}
