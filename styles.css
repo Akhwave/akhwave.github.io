@@ -79,10 +79,14 @@ body > header {
     flex: 1;
     padding: 8px;
     margin-right: 5px;
+    background-color: white;
+    border-color: #d9a96a;
 }
 
 #search-bar button {
     padding: 8px;
+    background-color: #d9a96a;
+    border-color: #b47e4a;
     
 }
 
